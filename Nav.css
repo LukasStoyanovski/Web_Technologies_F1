@@ -1,0 +1,40 @@
+
+
+body{
+    margin: 0px auto;
+    padding: 0px;
+    color: white;
+    font-family: 'Zen Dots', cursive;
+}
+
+ul{
+    display: flex;
+    margin: 0px;
+    /* margin-right: 100px; */
+    justify-content: center;
+    
+}
+li:first-child{
+    position: absolute;
+    left: 100px;
+}
+
+li{
+    display: flex;
+    padding: 20px;
+}
+
+
+li:hover {
+    background-color: black;
+    color: white;
+}
+
+.nav-bar{
+    height: auto;
+    width: 100%;
+    margin: 0px;
+
+    /* padding: 10px; */
+    background-color: red;
+}
