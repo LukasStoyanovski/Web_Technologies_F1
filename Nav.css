@@ -1,3 +1,5 @@
+/* Created by Lukas Stojanovski */
+
 body{
     margin: 0px auto;
     padding: 0px;
@@ -19,7 +21,6 @@ li:first-child{
 
 li{
     display: flex;
-    padding: 20px;
 }
 
 
@@ -37,4 +38,9 @@ li:hover {
     background-color: red;
 }
 
-/* Created by Lukas Stojanovski */
+.nav-buttons{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+}
+
