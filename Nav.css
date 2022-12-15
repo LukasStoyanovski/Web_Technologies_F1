@@ -7,13 +7,15 @@ body{
 }
 
 .nav{
+<<<<<<< HEAD
+=======
     color: white;
 }
 
 ul{
+>>>>>>> 63b8d430f05767b82b53d4d9958db60f0aa064d9
     display: flex;
     margin: 0px;
-    /* margin-right: 100px; */
     justify-content: center;
     
 }
@@ -24,6 +26,7 @@ li:first-child{
 
 li{
     display: flex;
+    
 }
 
 
@@ -36,7 +39,10 @@ li:hover {
     height: auto;
     width: 100%;
     margin: 0px;
+<<<<<<< HEAD
+=======
     padding: 10px;
+>>>>>>> 63b8d430f05767b82b53d4d9958db60f0aa064d9
     background-color: red;
 }
 
