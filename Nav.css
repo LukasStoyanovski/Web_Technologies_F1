@@ -7,13 +7,6 @@ body{
 }
 
 .nav{
-<<<<<<< HEAD
-=======
-    color: white;
-}
-
-ul{
->>>>>>> 63b8d430f05767b82b53d4d9958db60f0aa064d9
     display: flex;
     margin: 0px;
     justify-content: center;
@@ -39,10 +32,6 @@ li:hover {
     height: auto;
     width: 100%;
     margin: 0px;
-<<<<<<< HEAD
-=======
-    padding: 10px;
->>>>>>> 63b8d430f05767b82b53d4d9958db60f0aa064d9
     background-color: red;
 }
 
@@ -50,9 +39,4 @@ li:hover {
     text-decoration: none;
     color: white;
     padding: 20px;
-<<<<<<< HEAD
 }
-=======
-}
-
->>>>>>> 4d8db3f6e1441845f971bbb86502a2ff65d6ed11
