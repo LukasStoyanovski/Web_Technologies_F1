@@ -3,6 +3,7 @@
 <!DOCTYPE html>
 <head>
     <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="Nav.css">
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -19,19 +20,31 @@
     
     <!-- Created by Mihail Markovski -->
     <section>
-    <img src="images\todd-jiang-4YKx90d8FUE-unsplash.jpg" id="imageback" alt="Formula 1 home background" width="100%" height="100%">
-    <img src="images\transparent.png" id="transparent">
-    <h1 id="title">Formula 1</h1>
+    <img src="images\todd-jiang-4YKx90d8FUE-unsplash.jpg" id="imageback" alt="Formula 1 home background" width = "100%" height = "100%" >
+    <h1 id="title">Formula</h1>
+    <a href="#" id="button">More</a>
+    <img src="images\transparent.png" id="transparent" width = "100%" height = "100%" >
     </section>
 
-    <p>Kevin Magnussen has been praised by Haas team boss Guenther Steiner for taking a more mature and relaxed approach to his F1 return, and some mid-season struggles, over the course of the 2022 campaign.
+    <h2>Test</h2>
 
-        Magnussen previously raced for Haas from 2017 to 2020 but was dropped – along with then-team mate Romain Grosjean – for 2021, with Haas bringing in rookie pairing Mick Schumacher and Nikita Mazepin.
-        
-        READ MORE: ‘It’s been a real journey’ – Magnussen reflects on whirlwind F1 return that included ‘massive surprise’
-        
-        However, when Haas parted ways with Mazepin in the build-up to the 2022 season, they called on Magnussen to replace him, the Dane marking his shock return with a sensational P5 finish in the Bahrain opener.
-        
-        Further top 10 finishes followed in Saudi Arabia, Imola, Britain and Austria, before a more challenging seven-race spell outside the points – a run eventually broken with P9 in Japan and a stunning late-season pole position amid wet/dry conditions in Brazil.</p>
+    <p>orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+
+    
+    <script>
+    let title = document.getElementById('title');
+    let background = document.getElementById('imageback');
+    let transparent = document.getElementById('transparent');
+    let button = document.getElementById('button'); 
+
+    window.addEventListener('scroll', function(){
+
+        let value = window.scrollY;
+        title.style.bottom = value = 'px';
+
+
+    })
+    </script>
+    
 </body>
 

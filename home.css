@@ -1,0 +1,61 @@
+/* Created by Mihail Markovski */
+section{
+    position: relative;
+    width: "100%";
+    height: "100vh";
+    padding: 500px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+
+section img
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: "100%";
+    height: "100%";
+    object-fit: cover;
+    pointer-events: none;
+}
+
+
+section img#imageback
+{
+    position: absolute;
+    z-index: 10;
+    mix-blend-mode: screen;
+}
+
+section img#transparent
+{
+    
+
+    z-index: 1;
+    
+    
+}
+
+#title{
+    position: absolute;
+    z-index: 4;
+    color: aqua;
+    font-size: 7.5vw;
+    white-space: nowrap;
+    top: 10px;
+    
+}
+
+#button{
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 30px;
+    border-radius: 40px;
+    background: #fff;
+    color: red;
+    font-size: 1.5em;
+    z-index: 4;
+    transform: translateY(-260px);
+    
+}
