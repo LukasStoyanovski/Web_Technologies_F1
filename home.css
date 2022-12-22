@@ -44,7 +44,7 @@ section img#transparent
     color: #fff;
     font-size: 7.5vw;
     white-space: nowrap;
-    top: 10px;
+    top: 0%;
     
 }
 
@@ -59,6 +59,6 @@ section img#transparent
     font-size: 1.5em;
     z-index: 5;
     margin: auto;
-    top: 280px;
+    top: 28%;
     right: 50%;
 }
