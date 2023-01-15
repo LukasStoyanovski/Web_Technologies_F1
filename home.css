@@ -1,4 +1,5 @@
 /* Created by Mihail Markovski */
+/*Title paralax effect*/
 section{
     position: relative;
     width: "100%";
@@ -20,7 +21,6 @@ section img
     object-fit: cover;
     pointer-events: none;
 }
-
 
 section img#imageback
 {
@@ -67,12 +67,11 @@ body{
     background-image: linear-gradient(#450c05, #f09034);
 }
 .Posts{
+    position: relative;
     padding: 30px;
     margin: auto;
     justify-items: center;
     align-items: center;
-    text-align: center;
-    
 }
 .container {
     max-width: 1200px;
@@ -135,4 +134,5 @@ body{
     color: red;
     position: relative;
   }
-  
+
+/*News*/
