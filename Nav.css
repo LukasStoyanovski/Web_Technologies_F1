@@ -4,33 +4,42 @@ body{
     margin: 0px auto;
     padding: 0px;
     font-family: 'Zen Dots', cursive;
+    line-height: 1;
+}
+main{
+    margin: 30px 100px;
 }
 
-.nav{
-<<<<<<< HEAD
-=======
-    color: white;
+a:-webkit-any-link{
+    text-decoration: none;
 }
 
-ul{
->>>>>>> 63b8d430f05767b82b53d4d9958db60f0aa064d9
+#nav{
     display: flex;
     margin: 0px;
     justify-content: center;
-    
+    height: 100%;
+    gap: 30px;
+
 }
-li:first-child{
+.home:first-child{
     position: absolute;
     left: 100px;
 }
-
 li{
     display: flex;
+    align-self: center;
+}
+
+.nav-buttons{
+    display: flex;
+    margin: auto;
+    height: 100%;
     
 }
 
 
-li:hover {
+.nav-buttons:hover {
     background-color: black;
     color: white;
 }
@@ -39,20 +48,33 @@ li:hover {
     height: auto;
     width: 100%;
     margin: 0px;
-<<<<<<< HEAD
-=======
-    padding: 10px;
->>>>>>> 63b8d430f05767b82b53d4d9958db60f0aa064d9
     background-color: red;
+    
 }
 
 .nav-buttons{
     text-decoration: none;
-    color: white;
+    color: rgb(0, 0, 0);
     padding: 20px;
-<<<<<<< HEAD
-}
-=======
+    background-color: red;
+    
 }
 
->>>>>>> 4d8db3f6e1441845f971bbb86502a2ff65d6ed11
+.nav-buttons:hover{
+    animation-name: example;
+    animation-duration: 1s;
+}
+
+@keyframes example {
+    from {background-color: red;}
+    to {background-color: rgb(0, 0, 0);}
+  }
+
+button{
+    font-family: 'Zen Dots', cursive;
+    padding: auto 0px;
+}
+
+
+
+
