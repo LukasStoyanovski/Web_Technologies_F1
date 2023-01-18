@@ -1,4 +1,66 @@
-#main-info{
-    margin-left: auto;
-    margin-right: auto;
+button{
+    border: none;
+    background-color: red;
+    padding: 0px;
+    cursor: pointer;
+}
+.dropDownList{
+    color: white;
+    text-transform: uppercase;
+    border-right: 0.2px solid;
+    border-bottom: 0.2px solid;
+    border-bottom-right-radius: 10px;
+    border-color: white;
+    padding: 5px;
+}
+
+#dropDownMenu{
+    background-color: black;
+    display: none;
+    margin: 0px;
+    padding: 20px 100px;
+}
+.dropDownItems{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+    font-size: 10px;
+}
+
+.content{
+    padding-left: 250px;
+    padding-right: 250px;
+    padding-bottom: 50px;
+}
+table {
+width: 100%;
+border-collapse: collapse;
+margin-top: 20px;
+}
+
+th {
+background-color: #f2f2f2;
+font-size: 18px;
+font-weight: bold;
+padding: 12px;
+text-align: left;
+}
+
+td {
+padding: 10px;
+padding-left: 250px;
+}
+
+tr:nth-child(even) {
+background-color: #f2f2f2;
+}
+
+.highlight {
+background-color: #ffa600;
+color: white;
+font-weight: bold;
+}
+h1 {
+    text-align: center;
 }

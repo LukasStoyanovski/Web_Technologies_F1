@@ -1,32 +1,211 @@
+<!-- Created by Marko Stojkovski  -->
+
 <!DOCTYPE html>
+<html>
 <head>
-    <link rel="stylesheet" href="Nav.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../Nav.css">
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap" rel="stylesheet">
+    <style> 
+        button{
+            border: none;
+            background-color: red;
+            padding: 0px;
+            cursor: pointer;
+        }
+        .polaroid {
+        width: 50%;
+        height: 40%;
+        background-color: white;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        margin-bottom: 25px;
+        position: relative;
+        }
+        .polaroid:hover{
+            box-shadow: 0px 0px 5px 5px rgb(218, 12, 12);
+        }
+        .teget:hover{
+            box-shadow: 0px 0px 5px 5px rgb(3, 53, 145);
+        }
+        .green:hover{
+            box-shadow: 0px 0px 5px 5px rgb(54, 202, 73);
+        }
+        .yellow:hover{
+            box-shadow: 0px 0px 5px 5px yellow;
+        }
+        .black:hover{
+            box-shadow: 0px 0px 5px 5px black;
+        }
+        .white:hover{
+            box-shadow: 0px 0px 5px 5px white;
+        }
+        .cyan:hover{
+            box-shadow: 0px 0px 5px 5px rgb(0, 110, 101);
+        }
+
+        .container {
+        text-align: center;
+        padding: 10px 20px;
+        }
+
+        .photos {
+        opacity: 1;
+        display: block;
+        width: 100%;
+        height: auto;
+        transition: .5s ease;
+        backface-visibility: hidden;
+        }
+
+        table {
+            padding-left: 20%;
+        }
+        #basic-info{
+            padding-left: 5%;
+            color: aliceblue;
+        }
+        #heading{
+            padding-left: 5%;
+        }
+        .team-list{
+            overflow: auto;
+        }
+        a {
+            color: black;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: red; 
+        }
+
+        #wallpaper {
+        background-image: url("/photos/shawnanggg-jvp_lZydFWc-unsplash.jpg"), linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+        background-size: cover;
+        background-position: center;
+        background-blend-mode: multiply;
+        }
+
+        h1{
+            color: aliceblue;
+            text-shadow: 2px 2px rgb(red, green, blue);
+        }
+        
+
+
+    </style>
 </head>
 <body>
+    <div id="wallpaper">
     <div class="nav-bar">
-        <ul class="nav">
-            <li class="home">Home</li>
-            <li>Drivers</li>
-            <li>Teams</li>
-            <li>Standings</li>
-            <li>Schedule</li>
+        <ul id="nav">
+            <li class="home nav-item"><a class="nav-buttons" href="/home.html">Home</a></li>
+            <li class="nav-Item drivers"><a class="nav-buttons" href="/Drivers.html">Drivers</a></li>
+            <li class="nav-Item teams"><a class="nav-buttons" href="/html/teams.html">Teams</a></li>
+            <li class="nav-Item"><a class="nav-buttons">Standings</a></li>
+            <li class="nav-Item"><a class="nav-buttons">Schedule</a></li>
         </ul>
-    </div>
-
-    <div class="teams">
-    <ol>
-        <li>Red Bull Racing</li>
-        <li>Ferrari</li>
-        <li>Mercedes</li>
-        <li>Alpine</li>
-        <li>McLaren</li>
-        <li>Alfa Romeo</li>
-        <li>Aston Martin</li>
-        <li>Haas F1 Team</li>
-        <li>AlphaTauri</li>
-        <li>Williams</li>
-    </ol>
 
     </div>
+    <div class="content">
+        <h1 id="heading"><em>F1 Teams 2023</em></h1>
+        <p id="basic-info">Discover everything you need to know about this year's Formula 1 teams - drivers, podium, finishes, points earned and championship titles!</p>
+        <table width="100%">
+            <tr>
+                <td>
+        <div class="polaroid teget">
+            <a href="/html/alfa-romeo.html"><img src="/photos/alfa-romeo-logo.png" alt="Alfa Romeo" class="photos" style="width:100%"></a>
+            <div class="container">
+                <p><a class="team-list" href="alfa-romeo.html">1. Alfa Romeo</a></p>
+            </div>
+         </div>
+                </td>
+                <td>
+         <div class="polaroid">
+            <a href="/html/alphatauri.html"><img src="/photos/alpha-tauri logo.png" alt="AlphaTauri" class="photos" style="width:100%"></a>
+            <div class="container">
+                <p><a class="team-list" href="alphatauri.html">2. AlphaTauri</a></p>
+            </div>
+         </div>
+                </td>
+        </tr>
+        <tr>
+            <td>
+         <div class="polaroid">
+            <a href="/html/alpine.html"><img src="/photos/alpine-logo.png" alt="Alpine" class="photos" style="width:100%"></a>
+            <div class="container">
+                <p><a class="team-list" href="alpine.html">3. Alpine</a></p>
+            </div>
+         </div>
+            </td>
+            <td>
+         <div class="polaroid green">
+            <a href="/html/aston-martin.html"><img src="/photos/aston-martin-logo.png" alt="Aston Martin" class="photos" style="width:100%"></a>
+            <div class="container">
+                <p><a class="team-list" href="aston-martin.html">4. Aston Martin</a></p>
+            </div>
+         </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+         <div class="polaroid yellow">
+            <a href="/html/ferrari.html"><img src="/photos/ferrari-logo.png" alt="Ferrari" class="photos" style="width:100%"></a>
+            <div class="container">
+                <p><a class="team-list" href="ferrari.html">5. Ferrari</a></p>
+            </div>
+         </div>
+            </td>
+            <td>
+         <div class="polaroid">
+            <a href="/html/haas.html"><img src="/photos/haas-logo.png" alt="Haas" class="photos" style="width:100%"></a>
+            <div class="container">
+                <p><a class="team-list" href="haas.html">6. Haas</a></p>
+            </div>
+         </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+         <div class="polaroid black">
+            <a href="/html/mclaren.html"><img src="/photos/mc-laren-logo.png" alt="McLaren" class="photos" style="width:100%"></a>
+            <div class="container">
+                <p><a class="team-list" href="mclaren.html">7. McLaren</a></p>
+            </div>
+         </div>
+            </td>
+            <td>
+         <div class="polaroid white">
+            <a href="/html/mercedes.html"><img src="/photos/mercedes-logo.png" alt="Mercedes" class="photos" style="width:100%"></a>
+            <div class="container">
+                <p><a class="team-list" href="mercedes.html">8. Mercedes</a></p>
+            </div>
+         </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+         <div class="polaroid">
+            <a href="/html/rebull.html"><img src="/photos/red-bull-logo.png" alt="Red Bull" class="photos" style="width:100%"></a>
+            <div class="container">
+                <p><a class="team-list" href="rebull.html">9. Red Bull</a></p>
+            </div>
+         </div>
+            </td>
+            <td>
+         <div class="polaroid cyan">
+            <a href="/html/williams.html"><img src="/photos/williams-logo.png" alt="Williams" class="photos" style="width:100%"></a>
+            <div class="container">
+                <p><a class="team-list" href="williams.html">10. Williams</a></p>
+            </div>
+         </div>
+            </td>
+        </tr>
+        </table>
+    </div>
+</div>
+    <script type="text/javascript" src="./Drivers.js">
+    
+    </script>
 </body>
+</html>
