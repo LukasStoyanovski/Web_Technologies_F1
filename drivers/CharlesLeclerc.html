@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="../Nav.css">
+    <style>
+        
+        button{
+            border: none;
+            background-color: red;
+            padding: 0px;
+            cursor: pointer;
+        }
+        .dropDownList{
+            color: white;
+            text-transform: uppercase;
+            border-right: 0.2px solid;
+            border-bottom: 0.2px solid;
+            border-bottom-right-radius: 10px;
+            border-color: white;
+            padding: 5px;
+        }
+
+        #dropDownMenu{
+            background-color: black;
+            display: none;
+            margin: 0px;
+            padding: 20px 100px;
+        }
+        .dropDownItems{
+            display: flex;
+            justify-content: center;
+            gap: 50px;
+            flex-wrap: wrap;
+            font-size: 10px;
+        }
+        .photo-div{
+            width: 60%;
+            margin: 20px;
+            background-color: rgb(255, 255, 255);
+        }
+        .driver-photo{
+            width: 100%;
+            margin: 0px;
+        }
+        .driver-container{
+            background-color: rgb(241, 241, 241);
+            width: 100%;
+            display: flex;
+            border-radius: 10px;
+            padding: 20px;
+        }
+        .driver-biography{
+            margin: 20px;
+            
+        }
+        .flag{
+            width: 80px;
+            position: relative;
+            bottom: 13px;
+            border-radius: 5px;
+            
+        }
+        .number{
+            display: inline-block;
+            margin-bottom: 0px;
+            font-size: 50px;
+        }
+        .biography-text{
+            font-size: 15px;
+            
+        }
+        .driver-info{
+            /* display: flex; */
+            float: right;
+            margin: 20px;
+        }
+        table{
+            width: 100%;
+        }
+        tr{
+            padding: 10px;
+            
+        }
+        td{
+            padding: 10px;
+        }
+        
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap" rel="stylesheet">
+
+  </head>
+  <body>
+    <div class="nav-bar">
+
+        <ul id="nav">
+            <li class="home nav-item"><a href="../home.html" class="nav-buttons">Home</a></li>
+            <li class="nav-Item drivers"><a href="../Drivers.html" onclick="" onmouseover="showDropDown();" onmouseleave="closeDropDown()" class="nav-buttons">Drivers</a></li>
+            <li class="nav-Item"><a class="nav-buttons" href="./html/teams.html">Teams</a></li>
+            <li class="nav-Item"><a class="nav-buttons">Standings</a></li>
+            <li class="nav-Item"><a class="nav-buttons">Schedule</a></li>
+        </ul>
+        <div id="dropDownMenu" onmouseover="showDropDown()" onmouseleave="closeDropDown()">
+            <ul class="dropDownItems">
+            </ul>
+        </div>
+    </div>
+    <main>
+        <div class="driver-container">
+            <div class="photo-div">
+                <img class="driver-photo" src="https://cdn.shopify.com/s/files/1/0565/3230/4032/t/11/assets/charlesleclerc-1655344169661.webp?v=1655344171" alt="">
+            </div>
+            <div class="driver-info">
+                <h1>Charles Leclerc</h1>
+                    <h1 class="number">16</h1>
+                    <img class="flag" src="../flags/EnglandFlag.gif">
+                <table class="driver-table">
+                    <tr>
+                        <td>Team:</td>
+                        <td>Ferrari</td>
+                    </tr>
+                    <tr>
+                        <td>Country:</td>
+                        <td>England</td>
+                    </tr>
+                    <tr>
+                        <td>Podiums:</td>
+                        <td>24</td>
+                    </tr>
+                    <tr>
+                        <td>Points:</td>
+                        <td>868</td>
+                    </tr>
+                    <tr>
+                        <td>World Championships:</td>
+                        <td>N/A</td>
+                    </tr>
+                    <tr>
+                        <td>Date of Birth:</td>
+                        <td>16/10/1997</td>
+                    </tr>
+                    <tr>
+                        <td>Highest race finish:</td>
+                        <td>1(x5)</td>
+                    </tr>
+                    <tr>
+                        <td>Grands Prix entered:</td>
+                        <td>103</td>
+                    </tr>
+                </table>
+            </div>
+
+            <hr>
+            
+              
+        </div>
+        <div class="driver-biography">
+            <h1>Biography</h1>
+            <p class="biography-text">
+                Born in the Mediterranean idyll of Monaco, Leclerc arrived in F1 on a tidal wave of expectation. 
+                <br>
+                <br>
+                Practically peerless on his way to the GP3 and Formula 2 crowns, he showcased a dazzling array of skills from scorching pole positions, commanding victories – even when his car caught fire twice at Silverstone – to an ability to muscle his way through the pack. Winning back-to-back championships also taught Leclerc how to handle pressure, another useful tool in the big pond of Formula 1 racing.
+                <br>
+                <br>
+                
+                Stepping up to F1 in 2018, Leclerc showed flashes of ballistic pace on Saturdays and racing brilliance on Sundays, dragging his Sauber beyond its limits – and earning himself a money-can’t-buy race seat at Ferrari for 2019, stepping into the shoes of the Scuderia’s last world champion, Kimi Raikkonen. 
+                <br>
+                <br>
+                
+                There he immediately put the cat among the proverbial pigeons, unafraid to go wheel-to-wheel with established number one, Sebastian Vettel. A maiden F1 victory at Spa was followed by another a week later on Ferrari’s hallowed home turf of Monza. The tifosi had found another new hero – who then became the first man to out-score Vettel over a season with the Scuderia, a feat he repeated in crushing fashion the following year.
+                <br>
+                <br>
+                
+                The 2020 and ’21 seasons bore little fruit for Ferrari, but Leclerc maintained his resolve to emerge a true title contender in 2022. With three wins, 11 podiums and nine pole positions, he was the only man able to consistently take the fight to champion Max Verstappen.
+                <br>
+                <br>
+                
+                Out of the car, Leclerc is modest and thoughtful - but then he is on his own very personal mission. This exciting young talent is racing for his late father Herve and his friend and mentor Jules Bianchi, the F1 driver who died in 2015. 
+                <br>
+                <br>
+                
+                On the evidence so far, he is doing them both proud.
+                <br>
+                <br>
+                </p>
+</div>
+          
+    </main>
+    <script type="text/javascript" src="../Drivers.js"></script>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
