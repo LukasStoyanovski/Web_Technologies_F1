@@ -10,6 +10,10 @@ main{
     margin: 30px 100px;
 }
 
+a:-webkit-any-link{
+    text-decoration: none;
+}
+
 #nav{
     display: flex;
     margin: 0px;
@@ -32,6 +36,7 @@ li{
     display: flex;
     /* margin: auto; */
     height: 100%;
+    
 }
 
 
@@ -41,7 +46,7 @@ li{
 }
 
 .nav-bar{
-    height: 60px;
+    height: auto;
     width: 100%;
     margin: 0px;
     background-color: red;
