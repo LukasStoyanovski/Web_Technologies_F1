@@ -4,67 +4,6 @@
 <head>
     <link rel="stylesheet" href="Nav.css">
     <style>
-        main{
-            margin: 30px 100px;
-        }
-        h1{
-            font-size: 70px;
-            border-top-right-radius: 10px;
-            border-top: 10px solid;
-            border-right: 10px solid;
-        }
-        #drivers-cards{
-            display: flex;
-            flex-wrap: wrap;
-        }
-        .driver-card{
-            border-top: 3px solid;
-            border-right: 3px solid;
-            border-top-right-radius: 10px;
-            display: inline-block;
-            width: 25%;
-            padding: 20px;
-            margin: 20px auto ;
-        }
-        .first-name{
-            font-size: 10px;
-            margin-bottom: 0px;
-        }
-        .last-name{
-            margin-top: 0px;
-            display: block;
-            font-size: 20px;
-        }
-        .country{
-            float: right;
-            margin: 0px;
-            font-size: 10px;
-        }
-        .team{
-            margin: 0px;
-            font-size: 15px;
-        }
-        .driver-number{
-            margin: 0px;
-            font-size: 50px;
-        }
-        button{
-            border: none;
-            background-color: red;
-            padding: 0px;
-            cursor: pointer;
-        }
-        .dropDownList{
-            color: white;
-            text-transform: uppercase;
-            border-right: 0.2px solid;
-            border-bottom: 0.2px solid;
-            border-bottom-right-radius: 10px;
-            border-color: white;
-            padding: 10px;
-            }
-
-        
         
         h1{
             font-size: 60px;
@@ -156,6 +95,7 @@
             opacity: 0px;
             padding: 20px 100px;
             position: absolute;
+            top: 58px;
         }
         /* .hide{
             display: none;
@@ -171,6 +111,33 @@
             flex-wrap: wrap;
             font-size: 10px;
         }
+        .driver-photo{
+            width: 200px;
+            float: right;
+            position: relative;
+
+        }
+        #blured{
+            position: fixed;
+            width: 100%;
+            height: 100%;
+            backdrop-filter: blur(10px);
+            top: 0px;
+            right: 0px;
+            display: none;
+        }
+        #driver-info{
+        background-color: #eee;
+        position: fixed;
+        width: 1000px;
+        height: 500px;
+        text-align: center;
+        top: 20%;
+        left: 50%;
+        padding: 20px;
+        transform: translate(-50%, 0);
+        border-radius: 30px;
+        }
 
     </style>
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap" rel="stylesheet">
@@ -185,18 +152,25 @@
             <li class="nav-Item"><a class="nav-buttons">Standings</a></li>
             <li class="nav-Item"><a class="nav-buttons">Schedule</a></li>
         </ul>
-        <div id="dropDownMenu" class="hide" onmouseover="showDropDown()" onmouseleave="closeDropDown()">
+        <div id="dropDownMenu" class="hide" onmouseover="keepDropDown()" onmouseleave="closeDropDown()">
+            <h1 class="drop-down-head">F1 Drivers</h1>
             <ul class="dropDownItems">
+                
             </ul>
         </div>
     </div>
 
     <main>
-        <h1>F1 Drivers</h1>
+        <h1>F1 Drivers 2023</h1>
         <div id="drivers-cards">
         
                     
                 </div>
-            </main>
+                <div id="blured">
+                    <div id="driver-info">
+                        
+                    </div>
+                </div>
+                </main>
             <script type="text/javascript" src="./Drivers.js"></script>
 </body>
