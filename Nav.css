@@ -17,9 +17,10 @@ a:-webkit-any-link{
 #nav{
     display: flex;
     margin: 0px;
-    justify-content: center;
+    /* justify-content: center; */
     height: 100%;
-    gap: 30px;
+    /* gap: 30px; */
+    padding: 0px;
 
 }
 .home:first-child{
@@ -33,7 +34,7 @@ li{
 
 .nav-buttons{
     display: flex;
-    margin: auto;
+    /* margin: auto; */
     height: 100%;
     
 }
