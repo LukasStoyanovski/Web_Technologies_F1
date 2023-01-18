@@ -36,6 +36,38 @@
         
     </style>
     <link rel="preconnect" href="https://fonts.googleapis.com/%22%3E<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin><link href="https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap" rel="stylesheet">
+    <style>
+        button{
+            border: none;
+            background-color: red;
+            padding: 0px;
+            cursor: pointer;
+        }
+        .dropDownList{
+            color: white;
+            text-transform: uppercase;
+            border-right: 0.2px solid;
+            border-bottom: 0.2px solid;
+            border-bottom-right-radius: 10px;
+            border-color: white;
+            padding: 5px;
+        }
+
+        #dropDownMenu{
+            background-color: black;
+            display: none;
+            margin: 0px;
+            padding: 20px 100px;
+        }
+        .dropDownItems{
+            display: flex;
+            justify-content: center;
+            gap: 50px;
+            flex-wrap: wrap;
+            font-size: 10px;
+        }
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="nav-bar">
@@ -43,6 +75,12 @@
         <ul id="nav">
             <li class="home nav-item"><a class="nav-buttons" href="/home.html">Home</a></li>
             <li class="nav-Item drivers"><a onclick="" onmouseover="showDropDown();" onmouseleave="closeDropDown()" class="nav-buttons" href="/Drivers.html">Drivers</a></li>
+            <li class="nav-Item"><a class="nav-buttons" href="./html/teams.html">Teams</a></li>
+            <li class="nav-Item"><a class="nav-buttons">Standings</a></li>
+            <li class="nav-Item"><a class="nav-buttons">Schedule</a></li>
+        <ul id="nav">
+            <li class="home nav-item"><a class="nav-buttons">Home</a></li>
+            <li class="nav-Item drivers"><a href="./Drivers.html" onclick="" onmouseover="showDropDown();" onmouseleave="closeDropDown()" class="nav-buttons">Drivers</a></li>
             <li class="nav-Item"><a class="nav-buttons" href="./html/teams.html">Teams</a></li>
             <li class="nav-Item"><a class="nav-buttons">Standings</a></li>
             <li class="nav-Item"><a class="nav-buttons">Schedule</a></li>
