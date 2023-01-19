@@ -16,7 +16,6 @@
         body{
             background-color: rgb(240, 240, 240);
         }
-        
         button{
             border: none;
             background-color: red;
@@ -53,6 +52,7 @@
         .driver-photo{
             width: 100%;
             margin: 0px;
+            border-radius: 10px;
         }
         .driver-container{
             background-color: rgb(255, 255, 255);
@@ -62,7 +62,9 @@
             padding: 20px;
         }
         .driver-biography{
-            margin: 20px;
+            margin: 0px;
+            padding: 20px;
+            border-top: 1px solid rgb(197, 197, 197);
             
         }
         .flag{
@@ -100,7 +102,6 @@
         .helmet{
             width: 100%;
         }
-        
     </style>
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap" rel="stylesheet">
 
@@ -115,20 +116,22 @@
             <li class="nav-Item"><a href="#" class="nav-buttons">Standings</a></li>
             <li class="nav-Item"><a href="#" class="nav-buttons">Schedule</a></li>
         </ul>
-        <div id="dropDownMenu" onmouseover="showDropDown()" onmouseleave="closeDropDown()">
+        <div id="dropDownMenu" class="hide" onmouseover="keepDropDown()" onmouseleave="closeDropDown()">
+            <h1 class="drop-down-head">F1 Drivers</h1>
             <ul class="dropDownItems">
+                
             </ul>
         </div>
     </div>
     <main>
         <div class="driver-container">
             <div class="photo-div">
-                <img class="driver-photo" src="https://www.formula1.com/content/fom-website/en/drivers/max-verstappen/jcr:content/image.img.1920.medium.jpg/1670841844162.jpg" alt="">
+                <img class="driver-photo" src="https://www.formula1.com/content/fom-website/en/drivers/fernando-alonso/jcr:content/image.img.1920.medium.jpg/1671113895515.jpg" alt="">
             </div>
             <div class="driver-info">
-                <h1>Max Verstappen</h1>
-                    <h1 class="number">1</h1>
-                    <img class="flag" src="../flags/BelgiumSmallFlag.jpg">
+                <h1>Fernando Alonso</h1>
+                    <h1 class="number">14</h1>
+                    <img class="flag" src="../flags/SpainFlag.gif">
                 <table class="driver-table">
                     <tr>
                         <td>Team:</td>
@@ -136,34 +139,34 @@
                     </tr>
                     <tr>
                         <td>Country:</td>
-                        <td>Belguim</td>
+                        <td>Canada</td>
                     </tr>
                     <tr>
                         <td>Podiums:</td>
-                        <td>77</td>
+                        <td>26</td>
                     </tr>
                     <tr>
                         <td>Points:</td>
-                        <td>2011</td>
+                        <td>1200</td>
                     </tr>
                     <tr>
                         <td>World Championships:</td>
-                        <td>2</td>
+                        <td>N/A</td>
                     </tr>
                     <tr>
                         <td>Date of Birth:</td>
-                        <td>30/09/1997</td>
+                        <td>26/01/1990</td>
                     </tr>
                     <tr>
                         <td>Highest race finish:</td>
-                        <td>1(x35)</td>
+                        <td>1(x4)</td>
                     </tr>
                     <tr>
                         <td>Grands Prix entered:</td>
-                        <td>163</td>
+                        <td>236</td>
                     </tr>
                 </table>
-                <img class="helmet" src="https://www.formula1.com/content/fom-website/en/drivers/max-verstappen/_jcr_content/helmet.img.png/1646824946942.png" alt="">
+                <img class="helmet" src="https://www.formula1.com/content/fom-website/en/drivers/fernando-alonso/_jcr_content/helmet.img.png/1647515528644.png">
             </div>
 
             <hr>
@@ -173,43 +176,46 @@
         <div class="driver-biography">
             <h1>Biography</h1>
             <p class="biography-text">
-He’s Max by name, and max by nature.
-<br>
-<br>
-<br>
-Arriving as Formula 1’s youngest ever competitor at just 17 years old, Verstappen pushed his car, his rivals and the sport’s record books to the limit. The baby-faced Dutchman with the heart of a lion took the Toro Rosso – and then the Red Bull – by the horns with his instinctive racing style.
-<br>
-<br>
-<br>
-F1’s youngest points scorer soon became its youngest race winner – at the age of 18 years and 228 days – with an opportunistic but controlled drive on debut for Red Bull in Barcelona 2016. A true wheel-to-wheel racer, another stunning drive in Brazil from the back of the pack to the podium on a treacherous wet track kept the plaudits coming.
-<br>
-<br>
-<br>
-Verstappen’s no-holds-barred attitude and hard defending have sometimes landed him in hot water with his peers and paymasters. But the mistakes that initially marred his potential have given way to maturity, while the bravado and energy that make him a blockbuster talent have remained – and the victories have kept on coming.
-<br>
-<br>
-<br>
-They culminated in his first F1 drivers’ crown after that already legendary, final-round showdown with Lewis Hamilton in 2021. And he followed that up with a powerhouse title defence in 2022, winning a record 15 races across the season.
-<br>
-<br>
-<br>
-The son of former F1 driver Jos Verstappen and super-quick karting Mum Sophie Kumpen, racing runs through his genes. Despite moving out of Dad’s house to live in Monaco, Verstappen remains close to his family, and though he’s not afraid to speak his mind, he can still be surprisingly shy.
-<br>
-<br>
-<br>
-Having become the Netherlands' first world champion aged just 24, the expectations for the next generation’s leading light are sky high – but with Verstappen there’s a feeling that the sky’s the limit.
+                He’s the fighter with a gentle touch from the land of the Lucha Libre.
+                <br>
+                <br>
+                <br>
+       
+                Perez’s reputation in F1 has been built on opposite approaches to Grand Prix racing. On the one hand, he is a punchy combatant who wrestles his way through the pack and into the points. Never afraid to add a bit of spice to his on-track encounters, even his team mates don’t always escape the Mexican’s heat.
+                
+                <br>
+                <br>
+                <br>
+           
+                
+                Then on the other hand, Perez is a smooth operator, a master at managing tyres to eke out extra performance and give him the upper hand on strategy. A firm favourite on the grid after his time with Sauber, McLaren, Force India and Racing Point, Perez has matured into an analytical racer and team player.
+                <br>
+                <br>
+                <br>
+              
+                
+                A proud countryman, the Guadalajara gunslinger has amassed more points than any other Mexican in the history of F1. In Sakhir 2020 he also matched hero and compatriot Pedro Rodriguez by taking the chequered flag in first – a performance that landed him a seat with title contenders Red Bull.
+                <br>
+                <br>
+                <br>
+              
+                
+                There he provided strong support to Max Verstappen’s 2021 and '22 championship-winning campaigns, also adding a further three victories to his own tally. More wins may not be assured, especially with Verstappen as team mate, but Perez working hard and racing with his heart are.
+                <br>
+                <br>
+                <br>
                 </p>
 </div>
 <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img class="d-block w-100" src="https://www.formula1.com/content/fom-website/en/drivers/max-verstappen/jcr:content/gallery/image11.img.1920.medium.jpg/1647107069610.jpg" alt="First slide">
+        <img class="d-block w-100" src="https://www.formula1.com/content/fom-website/en/drivers/sergio-perez/jcr:content/gallery/image1.img.1920.medium.jpg/1647524214746.jpg" alt="First slide">
       </div>
       <div class="carousel-item">
-        <img class="d-block w-100" src="https://www.formula1.com/content/fom-website/en/drivers/max-verstappen/jcr:content/gallery/image2.img.1920.medium.jpg/1647103996509.jpg" alt="Second slide">
+        <img class="d-block w-100" src="https://www.formula1.com/content/fom-website/en/drivers/sergio-perez/jcr:content/gallery/image11.img.1920.medium.jpg/1647089855347.jpg" alt="Second slide">
       </div>
       <div class="carousel-item">
-        <img class="d-block w-100" src="https://www.formula1.com/content/fom-website/en/drivers/max-verstappen/jcr:content/gallery/image3.img.1920.medium.jpg/1647090795238.jpg" alt="Third slide">
+        <img class="d-block w-100" src="https://www.formula1.com/content/fom-website/en/drivers/sergio-perez/jcr:content/gallery/image2.img.1920.medium.jpg/1647089538607.jpg" alt="Third slide">
       </div>
     </div>
     <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
