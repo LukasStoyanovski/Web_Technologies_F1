@@ -18,13 +18,18 @@
 
         <ul id="nav">
             <li class="nav-Item"><a href="../home/home.html" class="nav-buttons home-logo"><img id="logo" src="https://www.formula1.com/etc/designs/fom-website/images/f1_logo.svg" alt=""></a></li>
-            <li class="nav-Item drivers"><a onclick="" onmouseover="showDropDown();" onmouseleave="closeDropDown()" class="nav-buttons" href="../Drivers.html">Drivers</a></li>
-            <li class="nav-Item"><a class="nav-buttons" href="./html/teams.html">Teams</a></li>
-            <li class="nav-Item"><a class="nav-buttons">Standings</a></li>
-            <li class="nav-Item"><a class="nav-buttons">Schedule</a></li>
+            <li class="nav-Item drivers"><a href="../Drivers.html" class="nav-buttons">Drivers</a></li>
+            <li class="nav-Item"><a class="nav-buttons" href="../html/teams.html">Teams</a></li>
+            <li class="nav-Item"><a class="nav-buttons" href="#">Standings</a></li>
+            <li class="nav-Item"><a class="nav-buttons" onmouseover="showDropDown();" onmouseleave="closeDropDown()" href="#">About us</a></li>
         </ul>
-        <div id="dropDownMenu" onmouseover="showDropDown()" onmouseleave="closeDropDown()">
+        <div id="dropDownMenu" class="hide" onmouseover="keepDropDown()" onmouseleave="closeDropDown()">
+            <h1 class="drop-down-head">Developers</h1>
             <ul class="dropDownItems">
+                <li class="dropDownList"><a class="dropDownLink" href="../students/LukasStojanovski.html">Lukas Stoyanovski</a></li>
+                <li class="dropDownList"><a class="dropDownLink" href="../students/MarkoStojkovski.html">Marko Stojkovski</a></li>
+                <li class="dropDownList"><a class="dropDownLink" href="../students/GorjanSharkovski.html">Gorjan Sharkovski</a></li>
+                <li class="dropDownList"><a class="dropDownLink" href="../students/MihailMarkovski.html">Mihail Markovski</a></li>
             </ul>
         </div>
     </div>
@@ -166,4 +171,5 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="../Drivers.js"></script>
 </body>

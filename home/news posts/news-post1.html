@@ -10,16 +10,25 @@
     <title>F1 - The Official Home of Formula 1® Racing</title>
   </head>
 <body>
-    <div class="nav-bar">
+  <div class="nav-bar">
 
-        <ul class="nav">
-            <li class="nav-Item"><a href="/home/home.html" class="nav-buttons">Home</a></li>
-            <li class="nav-Item drivers"><a href="../Drivers.html" class="nav-buttons">Drivers</a></li>
-            <li class="nav-Item"><a href="../html/teams.html" class="nav-buttons">Teams</a></li>
-            <li class="nav-Item"><a class="nav-buttons">Standings</a></li>
-            <li class="nav-Item"><a class="nav-buttons">Schedule</a></li>
+    <ul id="nav">
+        <li class="nav-Item"><a href="../home/home.html" class="nav-buttons home-logo"><img id="logo" src="https://www.formula1.com/etc/designs/fom-website/images/f1_logo.svg" alt=""></a></li>
+        <li class="nav-Item drivers"><a href="../Drivers.html" class="nav-buttons">Drivers</a></li>
+        <li class="nav-Item"><a class="nav-buttons" href="../html/teams.html">Teams</a></li>
+        <li class="nav-Item"><a class="nav-buttons" href="#">Standings</a></li>
+        <li class="nav-Item"><a class="nav-buttons" onmouseover="showDropDown();" onmouseleave="closeDropDown()" href="#">About us</a></li>
+    </ul>
+    <div id="dropDownMenu" class="hide" onmouseover="keepDropDown()" onmouseleave="closeDropDown()">
+        <h1 class="drop-down-head">Developers</h1>
+        <ul class="dropDownItems">
+            <li class="dropDownList"><a class="dropDownLink" href="../students/LukasStojanovski.html">Lukas Stoyanovski</a></li>
+            <li class="dropDownList"><a class="dropDownLink" href="../students/MarkoStojkovski.html">Marko Stojkovski</a></li>
+            <li class="dropDownList"><a class="dropDownLink" href="../students/GorjanSharkovski.html">Gorjan Sharkovski</a></li>
+            <li class="dropDownList"><a class="dropDownLink" href="../students/MihailMarkovski.html">Mihail Markovski</a></li>
         </ul>
     </div>
+</div>
     
     <div class="container">
         <div class="row">
@@ -222,3 +231,5 @@
           </div> 
         </div>
         </footer>
+        <script type="text/javascript" src="../Drivers.js"></script>
+</body>
