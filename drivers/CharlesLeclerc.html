@@ -1,3 +1,5 @@
+<!-- Created by Lukas Stoyanovski -->
+
 <!doctype html>
 <html lang="en">
   <head>
@@ -10,6 +12,9 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="../Nav.css">
     <style>
+        body{
+            background-color: rgb(240, 240, 240);
+        }
         
         button{
             border: none;
@@ -43,14 +48,13 @@
         .photo-div{
             width: 60%;
             margin: 20px;
-            background-color: rgb(255, 255, 255);
         }
         .driver-photo{
             width: 100%;
             margin: 0px;
         }
         .driver-container{
-            background-color: rgb(241, 241, 241);
+            background-color: rgb(255, 255, 255);
             width: 100%;
             display: flex;
             border-radius: 10px;
@@ -61,7 +65,7 @@
             
         }
         .flag{
-            width: 80px;
+            width: 60px;
             position: relative;
             bottom: 13px;
             border-radius: 5px;
@@ -80,6 +84,7 @@
             /* display: flex; */
             float: right;
             margin: 20px;
+            width: 40%;
         }
         table{
             width: 100%;
@@ -91,7 +96,9 @@
         td{
             padding: 10px;
         }
-        
+        .helmet{
+            width: 100%;
+        }
     </style>
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap" rel="stylesheet">
 
@@ -100,11 +107,11 @@
     <div class="nav-bar">
 
         <ul id="nav">
-            <li class="home nav-item"><a href="../home.html" class="nav-buttons">Home</a></li>
+            <li class="nav-Item"><a href="../home.html" class="nav-buttons home-logo"><img id="logo" src="https://www.formula1.com/etc/designs/fom-website/images/f1_logo.svg" alt=""></a></li>
             <li class="nav-Item drivers"><a href="../Drivers.html" onclick="" onmouseover="showDropDown();" onmouseleave="closeDropDown()" class="nav-buttons">Drivers</a></li>
             <li class="nav-Item"><a class="nav-buttons" href="./html/teams.html">Teams</a></li>
-            <li class="nav-Item"><a class="nav-buttons">Standings</a></li>
-            <li class="nav-Item"><a class="nav-buttons">Schedule</a></li>
+            <li class="nav-Item"><a href="#" class="nav-buttons">Standings</a></li>
+            <li class="nav-Item"><a href="#" class="nav-buttons">Schedule</a></li>
         </ul>
         <div id="dropDownMenu" onmouseover="showDropDown()" onmouseleave="closeDropDown()">
             <ul class="dropDownItems">
@@ -114,7 +121,7 @@
     <main>
         <div class="driver-container">
             <div class="photo-div">
-                <img class="driver-photo" src="https://cdn.shopify.com/s/files/1/0565/3230/4032/t/11/assets/charlesleclerc-1655344169661.webp?v=1655344171" alt="">
+                <img class="driver-photo" src="https://www.formula1.com/content/fom-website/en/drivers/charles-leclerc/jcr:content/image.img.1920.medium.jpg/1670254511194.jpg" alt="">
             </div>
             <div class="driver-info">
                 <h1>Charles Leclerc</h1>
@@ -127,7 +134,7 @@
                     </tr>
                     <tr>
                         <td>Country:</td>
-                        <td>England</td>
+                        <td>United Kingdom</td>
                     </tr>
                     <tr>
                         <td>Podiums:</td>
@@ -154,6 +161,7 @@
                         <td>103</td>
                     </tr>
                 </table>
+                <img class="helmet" src="https://www.formula1.com/content/fom-website/en/drivers/charles-leclerc/_jcr_content/helmet.img.png/1646824728203.png" alt="">
             </div>
 
             <hr>
@@ -166,31 +174,59 @@
                 Born in the Mediterranean idyll of Monaco, Leclerc arrived in F1 on a tidal wave of expectation. 
                 <br>
                 <br>
+                <br>
                 Practically peerless on his way to the GP3 and Formula 2 crowns, he showcased a dazzling array of skills from scorching pole positions, commanding victories – even when his car caught fire twice at Silverstone – to an ability to muscle his way through the pack. Winning back-to-back championships also taught Leclerc how to handle pressure, another useful tool in the big pond of Formula 1 racing.
+                <br>
                 <br>
                 <br>
                 
                 Stepping up to F1 in 2018, Leclerc showed flashes of ballistic pace on Saturdays and racing brilliance on Sundays, dragging his Sauber beyond its limits – and earning himself a money-can’t-buy race seat at Ferrari for 2019, stepping into the shoes of the Scuderia’s last world champion, Kimi Raikkonen. 
                 <br>
                 <br>
+                <br>
                 
                 There he immediately put the cat among the proverbial pigeons, unafraid to go wheel-to-wheel with established number one, Sebastian Vettel. A maiden F1 victory at Spa was followed by another a week later on Ferrari’s hallowed home turf of Monza. The tifosi had found another new hero – who then became the first man to out-score Vettel over a season with the Scuderia, a feat he repeated in crushing fashion the following year.
+                <br>
                 <br>
                 <br>
                 
                 The 2020 and ’21 seasons bore little fruit for Ferrari, but Leclerc maintained his resolve to emerge a true title contender in 2022. With three wins, 11 podiums and nine pole positions, he was the only man able to consistently take the fight to champion Max Verstappen.
                 <br>
                 <br>
+                <br>
                 
                 Out of the car, Leclerc is modest and thoughtful - but then he is on his own very personal mission. This exciting young talent is racing for his late father Herve and his friend and mentor Jules Bianchi, the F1 driver who died in 2015. 
+                <br>
                 <br>
                 <br>
                 
                 On the evidence so far, he is doing them both proud.
                 <br>
                 <br>
+                <br>
                 </p>
 </div>
+<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img class="d-block w-100" src="https://www.formula1.com/content/fom-website/en/drivers/charles-leclerc/jcr:content/gallery/image1.img.1920.medium.jpg/1647107708239.jpg" alt="First slide">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="https://www.formula1.com/content/fom-website/en/drivers/charles-leclerc/jcr:content/gallery/image11.img.1920.medium.jpg/1647512435026.jpg" alt="Second slide">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="https://www.formula1.com/content/fom-website/en/drivers/charles-leclerc/jcr:content/gallery/image2.img.1920.medium.jpg/1647001847227.jpg" alt="Third slide">
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
           
     </main>
     <script type="text/javascript" src="../Drivers.js"></script>
