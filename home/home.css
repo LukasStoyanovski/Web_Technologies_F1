@@ -1,5 +1,9 @@
 /* Created by Mihail Markovski */
 /*Title paralax effect*/
+main{
+  margin: 50px;
+}
+
 html {
   scroll-behavior: smooth;
 }
