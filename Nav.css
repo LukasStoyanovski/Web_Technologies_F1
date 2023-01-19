@@ -10,16 +10,8 @@ body{
     background-color: rgb(240, 240, 240);
 }
 main{
-<<<<<<< HEAD
     margin: 30px ;
     margin-bottom: 100px;
-=======
-<<<<<<< HEAD
-    margin: 30px;
-=======
-    margin: 30px 30px;
->>>>>>> 7f8f1f2e5eca5b5bab4d746d2e17be998aed2b4d
->>>>>>> 761c9a9642bb5a701adccca135c5dcacee81ce0e
 }
 
 a:-webkit-any-link{
