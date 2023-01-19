@@ -29,9 +29,14 @@ button{
 }
 
 .content{
+    padding: 100px;
     padding-left: 250px;
     padding-right: 250px;
     padding-bottom: 50px;
+}
+.content{
+    text-align: justify;
+    position: absolute;
 }
 table {
     width: 150px;
@@ -63,4 +68,7 @@ font-weight: bold;
 }
 h1 {
     text-align: center;
+}
+.logo-in-content{
+    padding-left: 300px;
 }
