@@ -14,8 +14,7 @@ section{
     overflow: hidden;
 }
 
-section img
-{
+section img{
     position: absolute;
     top: 0;
     left: 0;
@@ -70,6 +69,15 @@ section img#transparent
 body{
     background-color: white;
 }
+
+a:link    
+{ color: inherit; text-decoration: underline; }
+a:visited 
+{ color: inherit; text-decoration: underline; }
+a:hover   
+{ color: inherit; text-decoration: underline; }
+a:active  
+{ color: inherit; text-decoration: underline; }
 
 .world-news,
 .popular-news {

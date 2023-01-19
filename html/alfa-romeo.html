@@ -7,8 +7,9 @@
     <link rel="stylesheet" href="/Nav.css">
     <link rel="stylesheet" href="/html/Teams.css">
     <style>
-        .main-info{
-            
+        .layout{
+            display: flex;
+            width: 100%;
         }
         .content{
             text-align: justify;
@@ -16,6 +17,10 @@
             padding-left: 250px;
             padding-right: 250px;
         }
+        /* .iframe{
+            width: 40%;
+            padding-left: 240px;
+        } */
     </style>
     <link rel="preconnect" href="https://fonts.googleapis.com/%22%3E<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin><link href="https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap" rel="stylesheet">
 
@@ -24,7 +29,7 @@
     <div class="nav-bar">
 
         <ul id="nav">
-            <li class="home nav-item"><a class="nav-buttons" href="/home.html">Home</a></li>
+            <li class="nav-Item"><a class="nav-buttons" href="/home.html">Home</a></li>
             <li class="nav-Item drivers"><a onclick="" onmouseover="showDropDown();" onmouseleave="closeDropDown()" class="nav-buttons" href="/Drivers.html">Drivers</a></li>
             <li class="nav-Item"><a class="nav-buttons" href="/html/teams.html">Teams</a></li>
             <li class="nav-Item"><a class="nav-buttons">Standings</a></li>
@@ -35,10 +40,9 @@
             </ul>
         </div>
     </div>
-    <div>
-        <h1>Alfa Romeo</h1>
-
-        <table class="main-info" style="width: auto">
+    <h1>Alfa Romeo</h1>
+    <div class="layout">
+        <table style="width: 60%">
             <tr>
                 <td><em>Full Team Name</em></td> 
                 <td>Alfa Romeo F1 Team ORLEN</td>
@@ -46,6 +50,7 @@
             <tr>
                 <td><em>Base</em></td>
                 <td>Hinwil, Switzerland</td>
+                
             </tr>
             <tr>
                 <td><em>Team Chief</em></td>
@@ -83,11 +88,12 @@
                 <td><em>Fastest Laps</em></td>
                 <td>6</td>
             </tr>
-        </div>
-            <tr>
-           
-            </tr>
+                <!-- <div class="iframe">
+                <iframe src="http://127.0.0.1:3000/html/teams.html" height="500" width="400"></iframe>
+                </div> -->
         </table>
+        </div>
+        
         <div class="content">
         <h1>In profile</h1>
         
