@@ -1,5 +1,3 @@
-<!-- Created by Lukas Stoyanovski -->
-
 <!DOCTYPE html>
 <head>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -11,16 +9,25 @@
     <title>F1 - The Official Home of Formula 1® Racing</title>
   </head>
 <body>
-    <div class="nav-bar">
+  <div class="nav-bar">
 
-        <ul class="nav">
-            <li class="nav-Item"><a class="nav-buttons home-logo"><img id="logo" src="https://www.formula1.com/etc/designs/fom-website/images/f1_logo.svg" alt=""></a></li>
-            <li class="nav-Item drivers"><a href="/Drivers.html" class="nav-buttons">Drivers</a></li>
-            <li class="nav-Item"><a href="/html/teams.html" class="nav-buttons">Teams</a></li>
-            <li class="nav-Item"><a href="#" class="nav-buttons">Standings</a></li>
-            <li class="nav-Item"><a href="#" class="nav-buttons">Schedule</a></li>
+    <ul id="nav">
+        <li class="nav-Item"><a href="./home.html" class="nav-buttons home-logo"><img id="logo" src="https://www.formula1.com/etc/designs/fom-website/images/f1_logo.svg" alt=""></a></li>
+        <li class="nav-Item drivers"><a href="../Drivers.html" class="nav-buttons">Drivers</a></li>
+        <li class="nav-Item"><a class="nav-buttons" href="../html/teams.html">Teams</a></li>
+        <li class="nav-Item"><a class="nav-buttons">Standings</a></li>
+        <li class="nav-Item"><a class="nav-buttons" onmouseover="showDropDown();" onmouseleave="closeDropDown()" >About us</a></li>
+    </ul>
+    <div id="dropDownMenu" class="hide" onmouseover="keepDropDown()" onmouseleave="closeDropDown()">
+        <h1 class="drop-down-head">Developers</h1>
+        <ul class="dropDownItems">
+            <li class="dropDownList"><a class="dropDownLink" href="./Students/LukasStojanovski.html">Lukas Stoyanovski</a></li>
+            <li class="dropDownList"><a class="dropDownLink" href="./Students/MarkoStojkovski.html">Marko Stojkovski</a></li>
+            <li class="dropDownList"><a class="dropDownLink" href="./Students/GorjanSharkovski.html">Gorjan Sharkovski</a></li>
+            <li class="dropDownList"><a class="dropDownLink" href="./Students/MihailMarkovski.html">Mihail Markovski</a></li>
         </ul>
     </div>
+</div>
     
     <!-- Created by Mihail Markovski -->
     <section>
@@ -42,7 +49,7 @@
     <div class="row">
       <div class="col-lg-6  mb-5 mb-sm-2">
         <div class="position-relative image-hover">
-          <a href="/home/news posts/news-post1.html">
+          <a href="./news posts/news-post1.html">
           <img
             src="news-img/1422823415.jpg"
             class="img-fluid"
@@ -51,12 +58,12 @@
           </a>
           <span class="thumb-title">FEATURE</span>
         </div>
-        <a href="/home/news posts/news-post1.html"><h1 class="font-weight-600 mt-3">
+        <a href="./news posts/news-post1.html"><h1 class="font-weight-600 mt-3">
           The beginner's guide to... the Formula 1 Grand Prix weekend
         </h1> </a>
-        <a href="/home/news posts/news-post1.html"><p class="fs-15 font-weight-normal">
+        <a href="./news posts/news-post1.html"><p class="fs-15 font-weight-normal">
           As the fastest, most technically advanced motorsport on the planet, Formula 1 can seem extremely complex. But if you’re a new fan of the sport, there’s absolutely nothing to fear as we can explain it all in our beginner’s guide. Here’s everything you need to know about the Formula 1 race weekend...</p> </a>
-        <a href="/home/news posts/news-post1.html"><p>Formula 1’s Grand Prix format sees the event take place over three days, from Friday to Sunday. On Friday, there are (usually) two one-hour practice sessions – Free Practice 1 and Free Practice 2 (FP1 and FP2) – and FP3 takes place on Saturday.</p> </a>
+        <a href="./news posts/news-post1.html"><p>Formula 1’s Grand Prix format sees the event take place over three days, from Friday to Sunday. On Friday, there are (usually) two one-hour practice sessions – Free Practice 1 and Free Practice 2 (FP1 and FP2) – and FP3 takes place on Saturday.</p> </a>
 
       </div>
       
@@ -65,7 +72,7 @@
         <div class="row">
           <div class="col-sm-6  mb-5 mb-sm-2">
             <div class="position-relative image-hover">
-              <a href="/home/news posts/news-post3.html">
+              <a href="./news posts/news-post3.html">
               <img
                 src="news-img/4.jpg"
                 class="img-fluid"
@@ -73,12 +80,12 @@
               /></a>
               <span class="thumb-title">NEWS</span>
             </div>
-            <a href="/home/news posts/news-post3.html">
+            <a href="./news posts/news-post3.html">
             <h5 class="font-weight-600 mt-3">
               Hamilton says engineer Pete Bonnington is ‘like a brother to me’
             </h5>
           </a>
-          <a href="/home/news posts/news-post3.html">
+          <a href="./news posts/news-post3.html">
             <p class="fs-15 font-weight-normal">
               Lewis Hamilton and race engineer Pete ‘Bono’ Bonnington are preparing for their 11th campaign together at Mercedes.</p>
             </a>
@@ -87,7 +94,7 @@
           
           <div class="col-sm-6  mb-5 mb-sm-2">
             <div class="position-relative image-hover">
-              <a href="/home/news posts/news-post5.html">
+              <a href="./news posts/news-post5.html">
               <img
                 src="news-img/6.jpg"
                 class="img-fluid"
@@ -95,10 +102,10 @@
               /></a>
               <span class="thumb-title">NEWS</span>
             </div>
-            <a href="/home/news posts/news-post5.html">
+            <a href="./news posts/news-post5.html">
             <h5 class="font-weight-600 mt-3">
               Red Bull to launch their 2023 season in New York as double title defence beckons            </h5>
-              <a href="/home/news posts/news-post5.html">
+              <a href="./news posts/news-post5.html">
               <p class="fs-15 font-weight-normal">
               Red Bull have announced that they will hold a ‘season launch’ in New York early in February</p>
           </a>
@@ -109,7 +116,7 @@
         <div class="row mt-3">
           <div class="col-sm-6  mb-5 mb-sm-2">
             <div class="position-relative image-hover">
-              <a href="/home/news posts/news-post2.html">
+              <a href="./news posts/news-post2.html">
                 <img
                 src="news-img/1.jpg"
                 class="img-fluid"
@@ -117,11 +124,11 @@
               /></a>
               <span class="thumb-title">FEATURE</span>
             </div>
-            <a href="/home/news posts/news-post2.html">
+            <a href="./news posts/news-post2.html">
             <h5 class="font-weight-600 mt-3">
               ANALYSIS: Why Williams made Mercedes’ James Vowles their new Team Principal</h5>
             </a>
-              <a href="/home/news posts/news-post2.html">
+              <a href="./news posts/news-post2.html">
               <p class="fs-15 font-weight-normal">
               Just over a month after parting ways with Team Principal Jost Capito, Williams announced they had signed Mercedes...</p>
             </a>
@@ -130,7 +137,7 @@
           
           <div class="col-sm-6">
             <div class="position-relative image-hover">
-              <a href="/home/news posts/news-post4.html">
+              <a href="./news posts/news-post4.html">
               <img
                 src="news-img/3.jpg"
                 class="img-fluid"
@@ -140,10 +147,10 @@
             </a>
               <span class="thumb-title">VIDEO</span>
             </div>
-            <a href="/home/news posts/news-post4.html">
+            <a href="./news posts/news-post4.html">
             <h5 class="font-weight-600 mt-3">
               WATCH: From Michael Schumacher unretiring to Robert Kubica's resilient return</h5></a>
-              <a href="/home/news posts/news-post4.html">
+              <a href="./news posts/news-post4.html">
               <p class="fs-15 font-weight-normal">
               Nico Hulkenberg’s return to the grid in 2023 made us think about the times a familiar face has come back to the sport.
             </p></a>
@@ -213,4 +220,3 @@
     </script>
     
 </body>
-
