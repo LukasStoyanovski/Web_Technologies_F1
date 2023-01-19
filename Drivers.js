@@ -1,29 +1,29 @@
 // Created by Lukas Stoyanovski 
 
 
-// function keepDropDown() {
-//     document.getElementById("dropDownMenu").style.display = "block";
-// }
+function keepDropDown() {
+    document.getElementById("dropDownMenu").style.display = "block";
+}
 
-// function showDropDown() {
-//     var opacity = 0;
-//     var fade = document.getElementById("dropDownMenu");
-//     var intervalID1 = setInterval(function() {
+function showDropDown() {
+    var opacity = 0;
+    var fade = document.getElementById("dropDownMenu");
+    var intervalID1 = setInterval(function() {
         
-//         if (opacity < 1) {
-//             opacity = opacity + 0.1
-//             fade.style.opacity = opacity;
-//             document.getElementById("dropDownMenu").style.display = "block";
+        if (opacity < 1) {
+            opacity = opacity + 0.1
+            fade.style.opacity = opacity;
+            document.getElementById("dropDownMenu").style.display = "block";
             
-//         } else {
-//             clearInterval(intervalID1);
-//         }
-//     }, 30);
-// }
+        } else {
+            clearInterval(intervalID1);
+        }
+    }, 30);
+}
 
-// function closeDropDown() {
-//     document.getElementById("dropDownMenu").style.display = "none"
-// }
+function closeDropDown() {
+    document.getElementById("dropDownMenu").style.display = "none"
+}
 
 
 
@@ -37,18 +37,18 @@ function driverStats(driver) {
 }
 
 
-function showDrivers() {
+// function showDrivers() {
 
-var dropDownItems = document.getElementsByClassName("dropDownItems")[0];
+// var dropDownItems = document.getElementsByClassName("dropDownItems")[0];
 
-let output = "";
-allDrivers.forEach((driver, index) => {
-    output += `<li class="dropDownList" onclick="driverStats(${driver.id})"><a>${driver.driver_name}</a></li>`
-})
+// let output = "";
+// allDrivers.forEach((driver, index) => {
+//     output += `<li class="dropDownList" onclick="driverStats(${driver.id})"><a>${driver.driver_name}</a></li>`
+// })
 
-dropDownItems.innerHTML = output;
-console.log(dropDownItems)
-}
+// dropDownItems.innerHTML = output;
+// console.log(dropDownItems)
+// }
 
 
 function showAllDrivers() {
@@ -74,7 +74,7 @@ function showAllDrivers() {
 
 
 window.onload = function() {
-showDrivers(),
+// showDrivers(),
 showAllDrivers()
 }
 
