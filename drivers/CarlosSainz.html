@@ -108,17 +108,21 @@
     <div class="nav-bar">
 
         <ul id="nav">
-            <li class="nav-Item"><a href="../home.html" class="nav-buttons home-logo"><img id="logo" src="https://www.formula1.com/etc/designs/fom-website/images/f1_logo.svg" alt=""></a></li>
-            <li class="nav-Item drivers"><a href="../Drivers.html" onclick="" onmouseover="showDropDown();" onmouseleave="closeDropDown()" class="nav-buttons">Drivers</a></li>
-            <li class="nav-Item"><a class="nav-buttons" href="./html/teams.html">Teams</a></li>
-            <li class="nav-Item"><a href="#" class="nav-buttons">Standings</a></li>
-            <li class="nav-Item"><a href="#" class="nav-buttons">Schedule</a></li>
+            <li class="nav-Item"><a href="../home/home.html" class="nav-buttons home-logo"><img id="logo" src="https://www.formula1.com/etc/designs/fom-website/images/f1_logo.svg" alt=""></a></li>
+            <li class="nav-Item drivers"><a href="../Drivers.html" class="nav-buttons">Drivers</a></li>
+            <li class="nav-Item"><a class="nav-buttons" href="../html/teams.html">Teams</a></li>
+            <li class="nav-Item"><a class="nav-buttons" href="#">Standings</a></li>
+            <li class="nav-Item"><a class="nav-buttons" onmouseover="showDropDown();" onmouseleave="closeDropDown()" href="#" >About us</a></li>
         </ul>
-        <div id="dropDownMenu" onmouseover="showDropDown()" onmouseleave="closeDropDown()">
+        <div id="dropDownMenu" class="hide" onmouseover="keepDropDown()" onmouseleave="closeDropDown()">
+            <h1 class="drop-down-head">Developers</h1>
             <ul class="dropDownItems">
+                <li class="dropDownList"><a class="dropDownLink" href="../Students/LukasStojanovski.html">Lukas Stoyanovski</a></li>
+                <li class="dropDownList"><a class="dropDownLink" href="../Students/MarkoStojkovski.html">Marko Stojkovski</a></li>
+                <li class="dropDownList"><a class="dropDownLink" href="../Students/GorjanSharkovski.html">Gorjan Sharkovski</a></li>
+                <li class="dropDownList"><a class="dropDownLink" href="../Students/MihailMarkovski.html">Mihail Markovski</a></li>
             </ul>
         </div>
-    </div>
     <main>
         <div class="driver-container">
             <div class="photo-div">
