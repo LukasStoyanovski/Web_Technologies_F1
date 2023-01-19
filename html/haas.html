@@ -4,8 +4,8 @@
 <head>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/Nav.css">
-    <link rel="stylesheet" href="/html/Teams.css">
+    <link rel="stylesheet" href="../Nav.css">
+    <link rel="stylesheet" href="./Teams.css">
     <style>
 
     </style>
@@ -17,8 +17,8 @@
     <div class="nav-bar">
 
         <ul id="nav">
-            <li class="nav-Item"><a href="/home/home.html" class="nav-buttons home-logo"><img id="logo" src="https://www.formula1.com/etc/designs/fom-website/images/f1_logo.svg" alt=""></a></li>
-            <li class="nav-Item drivers"><a onclick="" onmouseover="showDropDown();" onmouseleave="closeDropDown()" class="nav-buttons" href="/Drivers.html">Drivers</a></li>
+            <li class="nav-Item"><a href="../home/home.html" class="nav-buttons home-logo"><img id="logo" src="https://www.formula1.com/etc/designs/fom-website/images/f1_logo.svg" alt=""></a></li>
+            <li class="nav-Item drivers"><a onclick="" onmouseover="showDropDown();" onmouseleave="closeDropDown()" class="nav-buttons" href="../Drivers.html">Drivers</a></li>
             <li class="nav-Item"><a class="nav-buttons" href="./html/teams.html">Teams</a></li>
             <li class="nav-Item"><a class="nav-buttons">Standings</a></li>
             <li class="nav-Item"><a class="nav-buttons">Schedule</a></li>
@@ -29,10 +29,9 @@
         </div>
     </div>
 
-    <div>
         <h1>Haas</h1>
-
-        <table id="main-info" style="width: 50%;">
+        <div class="layout">
+        <table id="main-info" style="width: 60%;">
             <img class="logo-in-content" src="https://www.formula1.com/content/fom-website/en/teams/Haas-F1-Team/_jcr_content/logo.img.jpg/1646210673011.jpg" width="50%">
             <tr>
                 <td><em>Full Team Name</em></td> 
@@ -78,8 +77,18 @@
                 <td><em>Fastest Laps</em></td>
                 <td>2</td>
             </tr>
-        </div>
         </table>
+        <div class="driver-photos">
+            <figcaption><strong><em>DRIVERS</em></strong></figcaption>
+                <br>
+            <a href="../drivers/KevinMagnussen.html"><img src="https://www.formula1.com/content/fom-website/en/drivers/kevin-magnussen/jcr:content/image.img.1920.medium.jpg/1647447969295.jpg"  width="300px"></a>
+            <figcaption><a href="../drivers/KevinMagnussen.html">1. Kevin Magnussen</a></figcaption>
+            <br>
+            <a href=""><img src="https://www.formula1.com/content/fom-website/en/drivers/nico-hulkenberg/jcr:content/image.img.1920.medium.jpg/1671467194316.jpg"  width="300px"></a>
+            <figcaption><a href=""></a>2. Nico Hulkenberg</figcaption>
+            <br>
+        </div>
+    </div>
         <div class="content">
         <h1>In profile</h1>
         <p>
@@ -94,13 +103,13 @@
             </ol>
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img class="d-block w-100" src="/photos/haas.webp" alt="First slide">
+                <img class="d-block w-100" src="../photos/haas.webp" alt="First slide">
               </div>
               <div class="carousel-item">
-                <img class="d-block w-100" src="/photos/haas1.jpg" alt="Second slide">
+                <img class="d-block w-100" src="../photos/haas1.jpg" alt="Second slide">
               </div>
               <div class="carousel-item">
-                <img class="d-block w-100" src="/photos/haas2.jpg" alt="Third slide">
+                <img class="d-block w-100" src="../photos/haas2.jpg" alt="Third slide">
               </div>
             </div>
             <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">

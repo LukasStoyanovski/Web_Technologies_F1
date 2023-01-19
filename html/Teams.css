@@ -54,7 +54,6 @@ text-align: left;
 
 td {
 padding: 10px;
-padding-left: 250px;
 }
 
 tr:nth-child(even) {
@@ -70,5 +69,18 @@ h1 {
     text-align: center;
 }
 .logo-in-content{
-    padding-left: 300px;
+    width: 50%;
+}
+.layout{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1000px;
+    justify-content: center;
+    margin: 30px auto  ;
+}
+a{
+    color: black;
+}
+a:hover {
+    color: red; 
 }

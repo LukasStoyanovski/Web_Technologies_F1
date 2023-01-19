@@ -4,8 +4,8 @@
 <head>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/Nav.css">
-    <link rel="stylesheet" href="/html/Teams.css">
+    <link rel="stylesheet" href="../Nav.css">
+    <link rel="stylesheet" href="./Teams.css">
     <style>
     </style>
     <link rel="preconnect" href="https://fonts.googleapis.com/%22%3E<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin><link href="https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap" rel="stylesheet">
@@ -15,9 +15,9 @@
     <div class="nav-bar">
 
         <ul id="nav">
-            <li class="nav-Item"><a href="/home/home.html" class="nav-buttons home-logo"><img id="logo" src="https://www.formula1.com/etc/designs/fom-website/images/f1_logo.svg" alt=""></a></li>
-            <li class="nav-Item drivers"><a onclick="" onmouseover="showDropDown();" onmouseleave="closeDropDown()" class="nav-buttons" href="/Drivers.html">Drivers</a></li>
-            <li class="nav-Item"><a class="nav-buttons" href="/html/teams.html">Teams</a></li>
+            <li class="nav-Item"><a href="../home/home.html" class="nav-buttons home-logo"><img id="logo" src="https://www.formula1.com/etc/designs/fom-website/images/f1_logo.svg" alt=""></a></li>
+            <li class="nav-Item drivers"><a onclick="" onmouseover="showDropDown();" onmouseleave="closeDropDown()" class="nav-buttons" href="../Drivers.html">Drivers</a></li>
+            <li class="nav-Item"><a class="nav-buttons" href="./html/teams.html">Teams</a></li>
             <li class="nav-Item"><a class="nav-buttons">Standings</a></li>
             <li class="nav-Item"><a class="nav-buttons">Schedule</a></li>
         </ul>
@@ -27,11 +27,12 @@
         </div>
     </div>
 
-    <div>
+    
         <h1>Alpine</h1>
-
-        <table id="main-info" style="width: 50%;">
-            <img class="logo-in-content" src="https://www.formula1.com/content/fom-website/en/teams/Alpine/_jcr_content/logo.img.jpg/1673451453749.jpg" width="50%">
+        <main>
+        <div class="layout">
+        <table id="main-info" style="width: 60%;">
+            <img class="logo-in-content" src="https://www.formula1.com/content/fom-website/en/teams/Alpine/_jcr_content/logo.img.jpg/1673451453749.jpg" width="100%">
             <tr>
                 <td><em>Full Team Name</em></td> 
                 <td>BWT Alpine F1 Team</td>
@@ -76,8 +77,19 @@
                 <td><em>Fastest Laps</em></td>
                 <td>15</td>
             </tr>
-        </div>
         </table>
+        <div class="driver-photos">
+            <figcaption><strong><em>DRIVERS</em></strong></figcaption>
+                <br>
+            <a href="../drivers/EstebanOcon.html"><img src="https://www.formula1.com/content/fom-website/en/drivers/esteban-ocon/jcr:content/image.img.1920.medium.jpg/1669043917334.jpg"  width="300px"></a>
+            <figcaption><a href="../drivers/EstebanOcon.html">1. Esteban Ocon</a></figcaption>
+            <br>
+            <a href="../drivers/PierreGasly.html"><img src="https://www.formula1.com/content/fom-website/en/drivers/pierre-gasly/jcr:content/image.img.1920.medium.jpg/1671113939581.jpg"  width="300px"></a>
+            <figcaption><a href="../drivers/PierreGasly.html">2. Pierre Gasly</a></figcaption>
+            <br>
+        </div>
+    </div>    
+    </main>
         <div class="content">
         <h1>In profile</h1>
         
@@ -92,13 +104,13 @@
             </ol>
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img class="d-block w-100" src="/photos/alpine.jpg" alt="First slide">
+                <img class="d-block w-100" src="../photos/alpine.jpg" alt="First slide">
               </div>
               <div class="carousel-item">
-                <img class="d-block w-100" src="/photos/alpine1.webp" alt="Second slide">
+                <img class="d-block w-100" src="../photos/alpine1.webp" alt="Second slide">
               </div>
               <div class="carousel-item">
-                <img class="d-block w-100" src="/photos/alpine2.jpg" alt="Third slide">
+                <img class="d-block w-100" src="../photos/alpine2.jpg" alt="Third slide">
               </div>
             </div>
             <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
